@@ -14,7 +14,8 @@ def when_press_the_key(key, log_filename='log.txt'):
 
     Description:
         This function is intended to be used as a callback for the keyboard.on_press method.
-        It logs the keys pressed into a file, ignoring certain keys specified in the keys_to_ignore set.
+        It logs the keys pressed into a file, ignoring certain keys specified in 
+        the keys_to_ignore set.
         The 'enter' key is logged as a new line, the 'space' key is logged as a space character,
         and all other keys are logged as their names.
 
